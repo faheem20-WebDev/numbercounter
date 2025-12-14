@@ -10,10 +10,11 @@ function add() {
 
 // decrease
 function minus() {
+  if(counterNumber > 0){
   counterNumber = counterNumber - 1;
   number.innerText = counterNumber;
 }
-
+}
 // reset
 function reset() {
   counterNumber = 0;
