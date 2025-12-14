@@ -14,6 +14,9 @@ function minus() {
   counterNumber = counterNumber - 1;
   number.innerText = counterNumber;
 }
+else{
+  alert("Number can't be negative");
+}
 }
 // reset
 function reset() {
